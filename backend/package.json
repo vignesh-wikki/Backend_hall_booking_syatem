@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": " npm run build"
+  },
+  "author": "vignesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21",
+    "npm": "^9.6.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
