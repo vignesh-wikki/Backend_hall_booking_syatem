@@ -16,7 +16,9 @@ dbConnect();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(
-  cors()
+   cors({
+    origin: "https://hall-booking-system.vercel.app",
+  })
 );
 
 app.post("/register", async (request, response) => {
