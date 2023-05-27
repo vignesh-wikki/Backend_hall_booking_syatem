@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://hall-booking-system.vercel.app/",
+    origin: "https://hall-booking-system.vercel.app",
   })
 );
 
